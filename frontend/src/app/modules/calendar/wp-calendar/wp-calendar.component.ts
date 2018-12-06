@@ -18,6 +18,7 @@ import {DomSanitizer} from "@angular/platform-browser";
 
 @Component({
   templateUrl: './wp-calendar.template.html',
+  styleUrls: ['./test.sass'],
   selector: 'wp-calendar',
 })
 export class WorkPackagesCalendarController implements OnInit, OnDestroy {
